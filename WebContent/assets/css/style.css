@@ -1,0 +1,125 @@
+.navbar{
+  width: 100%;
+  min-height: 100px;
+  box-shadow: 5px 5px 5px 5px #cecece;
+  position: fixed;
+  z-index: 999;
+}
+.navbar-brand img{
+  width: 150px;
+}
+.navbar-nav a{
+  color: #fff;
+}
+.nav-icon{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+.nav{
+  text-align: center;
+}
+.nav li a{
+  padding: 10px 0px;
+}
+.nav li span{
+  text-transform: uppercase;
+}
+.top{
+  height: 110px;
+}
+section{
+  padding-top: 25px;
+}
+.Contents{
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f1f1f1;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px #ccc;
+}
+.Contents h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+.Contents form{
+  width: 70%;
+  height: auto;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 25px;
+  background: #ececec;
+  box-shadow: 5px 5px 10px 10px #fff;
+  display: block;
+}
+.form-group label{
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.form-group input{
+  padding: 15px;
+  height: 30px;
+}
+.Contents table{
+  width: 90%;
+  margin: 0px auto;
+  padding: 25px;
+  background: #ececec;
+  box-shadow: 5px 5px 10px 10px #fff;
+}
+.Contents a{
+  float: right;
+  margin-bottom: 15px;
+}
+.warning-title{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+.warning-title a{
+  font-size: 18px;
+}
+.box-item{
+  width: 250px;
+  height: 280px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  background: #fff;
+  margin-top: 25px;
+  text-align: center;
+  margin: 35px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #cecece;
+}
+.box-item-icon{
+  height: 180px;
+  overflow: hidden;
+}
+.box-item-icon img{
+  width: 180px;
+  height: 180px;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transition: transform .5s;
+}
+.box-item-topic{
+  height: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.box-home{
+  text-align: center;
+}
+.box-home a{
+  display: inline-block;
+}
+.box-home a:hover img{
+  transform: scale(1.2);
+}
